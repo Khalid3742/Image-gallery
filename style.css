@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-text {
+    color: gray;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cimage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.lb-data .lb-details .lb-caption {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px; /* Adjust this value to change the text size */
+    font-weight: bold; /* Optional: make the text bold */
+    color: #fff; /* Optional: change text color */
+    text-align: center; /* Optional: center-align the text */
+}
+
